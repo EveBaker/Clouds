@@ -1,0 +1,27 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  .parallax {
+    /* Full height */
+    height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  #layer1 {
+    background-image: url('layer1_foreground.png');
+  }
+  
+  #layer2 {
+    background-image: url('layer2_midground.png');
+  }
+  
+  #layer3 {
+    background-image: url('layer3_background.png');
+  }
