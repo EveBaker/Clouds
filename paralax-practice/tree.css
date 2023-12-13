@@ -14,14 +14,7 @@ body, html {
     background-size: cover;
   }
   
-  #layer1 {
-    background-image: url('layer1_foreground.png');
-  }
-  
   #layer2 {
-    background-image: url('layer2_midground.png');
+    background-image: url('trees.png');
   }
   
-  #layer3 {
-    background-image: url('layer3_background.png');
-  }
