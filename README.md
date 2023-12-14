@@ -12,3 +12,6 @@ https://codepen.io/kevinjannis/pen/DbOzJd (cloud 3)
 
 <br>fade-in-out:
 https://www.youtube.com/watch?v=gOcXSmp4f2I
+
+<br> reveal:
+https://www.youtube.com/watch?v=VplDlwLTR50
