@@ -235,14 +235,14 @@ header .navbar a:hover {
   margin-top: 10px; 
 }
 
-/* Media query for larger screens */
 @media (min-width: 600px) {
   .text-center h1 {
-    font-size: 3em; 
+    font-size: 3em;
   }
 
   .text-center p {
-    font-size: 1.25em; 
+    font-size: 1.25em;
+  } 
 
   .card {
     flex-basis: 200px;
@@ -252,4 +252,15 @@ header .navbar a:hover {
     flex-wrap: nowrap;
   }
 }
+
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }
