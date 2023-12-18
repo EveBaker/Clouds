@@ -214,21 +214,21 @@ header .navbar a:hover {
   flex-wrap: wrap;
   justify-content: center; 
   gap: 10px; 
+  background-color: #071330;
 }
 .card {
   flex: 1 1 200px; 
   max-width: calc(100% - 20px); 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
   margin: 10px; 
   border-radius: 10px; 
   text-align: center; 
   padding: 10px; 
-  border: #071330;
 }
 
 .card img {
   max-width: 100%; 
   height: auto; 
+  background-color: #003366;
 }
 
 .card h3 {
@@ -263,4 +263,53 @@ header .navbar a:hover {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+
+.tree {
+  position: absolute;
+  width: 5%;
+  bottom: 0;
+}
+
+/*footer */
+
+
+.footer {
+  background-color: #071330;
+  height: 249px;
+}
+.footer .container {
+  height: 100%;
+}
+
+.footer .row {
+  height: 100%;
+}
+
+.footer .footer-item {
+  padding: 0;
+}
+
+.footer .social-item {
+  font-size: 30px;
+}
+.footer .social-item a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.footer .twitter-icon {
+  padding: 0 20px;
+}
+
+.footer .trademark {
+  padding-bottom: 39px;
+}
+
+@media screen and (max-width: 991px) {
+  .footer {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
 }
