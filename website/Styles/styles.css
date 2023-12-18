@@ -265,6 +265,17 @@ header .navbar a:hover {
   opacity: 1;
 }
 
+.treereveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+
+.treereveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
 
 .tree {
   position: absolute;
@@ -312,4 +323,28 @@ header .navbar a:hover {
     padding-left: 40px;
     padding-right: 40px;
   }
+}
+
+.trees-overlay {
+  position: absolute;
+  top: 20;
+  left: 0;
+  width: 100%; /* This will cover the museum image */
+  height: 100%; /* Adjust the height to fit as an overlay */
+  z-index: 10; /* This will ensure the trees are on top */
+}
+
+
+.museum-image {
+  transition: transform 0.5s ease;
+  display: block;
+  width: 80%; /* Adjust width as necessary */
+  margin: 0 auto; /* Center the image if needed */
+}
+
+.museum-image:hover {
+  transform: scale(1.1); /* Zoom effect */
+  cursor: pointer;
+  overflow: visible;
+  margin: -5% 0;
 }
