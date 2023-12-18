@@ -14,3 +14,13 @@ function isInViewport(element) {
       }
     });
   });
+
+  //zooom
+  document.getElementById('museumImage').addEventListener('mouseenter', function() {
+    this.style.transform = 'scale(1.1)';
+    this.style.transition = 'transform 0.5s ease';
+  });
+
+  document.getElementById('museumImage').addEventListener('mouseleave', function() {
+    this.style.transform = 'scale(1)';
+  });
